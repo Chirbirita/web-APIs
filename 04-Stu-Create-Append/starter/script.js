@@ -18,6 +18,13 @@ kittenEl.textContent = "This is my kitten 🐱.";
 nameEl.textContent = "His name is Jax.";
 favoriteEl.textContent = "My favorite foods are:";
 
+//Add content of favourite foods
+li1.textContent = "Egusi soup";
+li2.textContent = "Jollof rice";
+li3.textContent = "Pepper soup";
+li4.textContent = "Fried plantain"
+
+
 body.appendChild(h1El);
 body.appendChild(infoEl);
 infoEl.appendChild(imgEl);
@@ -25,8 +32,14 @@ infoEl.appendChild(kittenEl);
 infoEl.appendChild(nameEl);
 body.appendChild(favoriteEl);
 favoriteEl.appendChild(listEl);
-// Append ordered list 
+
+// Append ordered list
 favoriteEl.appendChild(listEl);
+
+listEl.appendChild(li1)
+listEl.appendChild(li2)
+listEl.appendChild(li3)
+listEl.appendChild(li4)
 
 h1El.setAttribute("style", "margin:auto; width:50%; text-align:center;");
 infoEl.setAttribute("style", "margin:auto; width:50%; text-align:center;");
